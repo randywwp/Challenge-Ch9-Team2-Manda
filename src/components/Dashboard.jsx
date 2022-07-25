@@ -6,10 +6,10 @@ export const Dashboard = () => {
     <>
       <Container className="mt-5">
         <Nav />
-        <div className="row">
-          <div className="col-6">
+        <div className="row d-flex justify-content-center">
+          {/* <div className="col-6">
             <Profile />
-          </div>
+          </div> */}
           <div className="col-6">
             <GameList />
           </div>

@@ -33,15 +33,24 @@ import { getStorage } from "firebase/storage";
 // };
 
 //firebase fahmi
-const firebaseConfig = {
-  apiKey: "AIzaSyBlTjwi_2Bh10DW41laQaUc9Jmt45n732A",
-  authDomain: "fsw-binar-fahmi-chapter9.firebaseapp.com",
-  projectId: "fsw-binar-fahmi-chapter9",
-  storageBucket: "fsw-binar-fahmi-chapter9.appspot.com",
-  messagingSenderId: "52154749890",
-  appId: "1:52154749890:web:b1bc50bda257855575bc5b"
-};
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBlTjwi_2Bh10DW41laQaUc9Jmt45n732A",
+//   authDomain: "fsw-binar-fahmi-chapter9.firebaseapp.com",
+//   projectId: "fsw-binar-fahmi-chapter9",
+//   storageBucket: "fsw-binar-fahmi-chapter9.appspot.com",
+//   messagingSenderId: "52154749890",
+//   appId: "1:52154749890:web:b1bc50bda257855575bc5b"
+// };
 
+// FIREBASE ANDI
+const firebaseConfig = {
+  apiKey: "AIzaSyAT60u5MN61NaTbCPpTdltdzMbkgIo2OcI",
+  authDomain: "challenge-chapt9.firebaseapp.com",
+  projectId: "challenge-chapt9",
+  storageBucket: "challenge-chapt9.appspot.com",
+  messagingSenderId: "1003411114310",
+  appId: "1:1003411114310:web:84e85e6ba9518a58d87d47"
+};
 
 const app = initializeApp(firebaseConfig)
 const auth = getAuth(app)
