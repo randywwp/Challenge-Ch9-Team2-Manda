@@ -27,6 +27,7 @@ export const Nav = () => {
             >
               Logout
             </Link>
+            
           </div>
         </div>
       </Container>
