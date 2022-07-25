@@ -72,4 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 hello
 
-ini andi yang nulis cuma mau cek git commit
+=======
+hello 2
+>>>>>>> 40db022497031f3067466d7405f39e726dac74f2
